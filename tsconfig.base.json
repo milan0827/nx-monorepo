@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-monorepo/client//hooks": ["libs/client/hooks/src/index.ts"],
+      "@nx-monorepo/client/layouts": ["libs/client/layouts/src/index.ts"],
+      "@nx-monorepo/libs": ["libs/libs/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
