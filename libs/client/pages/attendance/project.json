@@ -1,0 +1,8 @@
+{
+  "name": "client-pages-attendance",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/client/pages/attendance/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}

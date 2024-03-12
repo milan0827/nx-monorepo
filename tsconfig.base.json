@@ -14,7 +14,20 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-workspace/client/hooks": ["libs/client/hooks/src/index.ts"],
+      "@nx-workspace/client/hooks/use-fetch": [
+        "libs/client/hooks/use-fetch/src/index.ts"
+      ],
+      "@nx-workspace/client/pages": ["libs/client/pages/src/index.ts"],
+      "@nx-workspace/client/pages/attendance": [
+        "libs/client/pages/attendance/src/index.ts"
+      ],
+      "@nx-workspace/client/pages/department": [
+        "libs/client/pages/department/src/index.ts"
+      ],
+      "@nx-workspace/client/store": ["libs/client/store/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
