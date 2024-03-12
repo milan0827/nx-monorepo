@@ -21,6 +21,12 @@
       ],
       "@nx-monorepo/client//hooks": ["libs/client/hooks/src/index.ts"],
       "@nx-monorepo/client/layouts": ["libs/client/layouts/src/index.ts"],
+      "@nx-monorepo/client/pages": ["libs/client/pages/src/index.ts"],
+      "@nx-monorepo/client/routes": ["libs/client/routes/src/index.ts"],
+      "@nx-monorepo/client/store": ["libs/client/store/src/index.ts"],
+      "@nx-monorepo/client/types": ["libs/client/types/src/index.ts"],
+      "@nx-monorepo/client/ui": ["libs/client/ui/src/index.ts"],
+      "@nx-monorepo/client/utils": ["libs/client/utils/src/index.ts"],
       "@nx-monorepo/libs": ["libs/libs/src/index.ts"],
       "@nx-monorepo/project-name-and-format=as-provided": [
         "libs/project-name-and-format=as-provided/src/index.ts"
