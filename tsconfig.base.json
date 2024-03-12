@@ -15,9 +15,16 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-monorepo/api": ["libs/api/src/index.ts"],
+      "@nx-monorepo/api/project-name-and-format=as-provided": [
+        "libs/api/project-name-and-format=as-provided/src/index.ts"
+      ],
       "@nx-monorepo/client//hooks": ["libs/client/hooks/src/index.ts"],
       "@nx-monorepo/client/layouts": ["libs/client/layouts/src/index.ts"],
-      "@nx-monorepo/libs": ["libs/libs/src/index.ts"]
+      "@nx-monorepo/libs": ["libs/libs/src/index.ts"],
+      "@nx-monorepo/project-name-and-format=as-provided": [
+        "libs/project-name-and-format=as-provided/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
